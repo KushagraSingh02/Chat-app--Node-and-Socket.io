@@ -1,0 +1,52 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(238, 211, 211),rgb(151, 87, 151));
+}
+
+.container{
+    max-width: 955px;
+    background-color: rgb(115, 221, 221);
+    margin: auto;
+    height: 60vh;
+    border-radius: 8px;
+    overflow-y: auto; 
+    /* when messages are there we can scoll using overflow-y*/
+    
+}
+.message{
+    background-color: rgb(135, 79, 187);
+    width: 24%;
+    padding: 10px;
+    margin:17px 12px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.left{
+    float: left;
+    clear: both; 
+    /* clear:both wont allow multiple to be present in single line*/
+}
+.right{
+
+    float: right;
+    clear: both;
+
+}
+#send-container{
+    display: block;
+    margin:auto;
+    text-align: center;
+}
+#messageInp{
+    width:62%;
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 34px;
+}
+.btn{
+    cursor: pointer;
+    width: 4%;
+    height: 34px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
